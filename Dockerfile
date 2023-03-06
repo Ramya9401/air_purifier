@@ -1,0 +1,1 @@
+FROM zoobab/arduino-cli
