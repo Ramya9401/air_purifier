@@ -176,9 +176,9 @@ inline uint32_t ETS_INTR_PENDING(void)
     ETS_INTR_DISABLE(ETS_SDIO_INUM)
 
 
-void *pvPortMalloc(size_t xWantedSize, const char* file, int line) __attribute__((malloc, alloc_size(1)));
+void* pvPortMalloc(size_t xWantedSize, const char* file, int line) __attribute__((malloc, alloc_size(1)));
 void *pvPortRealloc(void* ptr, size_t xWantedSize, const char* file, int line) __attribute__((alloc_size(2)));
-void vPortFree(void *ptr, const char* file, int line);
+void vPortFree(void* ptr, const char* file, int line);
 void *ets_memcpy(void *dest, const void *src, size_t n);
 void *ets_memmove(void *dest, const void *src, size_t n);
 void *ets_memset(void *s, int c, size_t n);

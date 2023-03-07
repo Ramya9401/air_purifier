@@ -44,6 +44,9 @@
 #else
 //#define LOCAL_TRACE // This enables debug output only for this file
 #endif
+
+#define UINT16_MAX 65535
+
 /*
  * Low level hardware timing measurement
  */
